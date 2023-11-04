@@ -25,7 +25,7 @@ Bookmark the [Coreflux Documentation](https://docs.coreflux.org) for easy refere
 
 ## Reporting Issues 🐛
 If you encounter any issues or have support requests, please use the provided issue templates to report them. 📝
-[New Issue][https://docs.coreflux.org](https://github.com/CorefluxCommunity/coreflux-central/issues/new/choose)
+- **[New Issue]**(https://github.com/CorefluxCommunity/coreflux-central/issues/new/choose) : Report a new issue/bug 👾
 
 
 ## Release Notes 📰
