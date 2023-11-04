@@ -1,0 +1,64 @@
+name: Bug report
+description: Create a report to help us improve the Coreflux MQTT Broker!
+labels:
+  - needs-triage
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This repository is for reporting bugs with the Coreflux MQTT Broker, which we respond to on a best-effort basis.
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the bug 🐞
+      description: Please give a clear and concise description of the bug
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: To Reproduce 🔄
+      description: Steps to reproduce the behavior
+      placeholder: |
+        1. Go to '...'
+        2. Click on '....'
+        3. Scroll down to '....'
+        4. See error
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior ✅
+      description: What is the expected behavior?
+      placeholder: |
+        E.g. "The broker should accept connections without throwing an error."
+    validations:
+      required: true
+  - type: dropdown
+    id: environment
+    attributes:
+      label: Environment 🌐
+      description: Please select the environment where the bug occurred.
+      options:
+        - Development
+        - Staging
+        - Production
+        - Other
+    validations:
+      required: true
+  - type: file
+    id: statuslog
+    attributes:
+      label: Statuslog File 📄
+      description: Attach the `statuslog` file (in .log format) to provide a compact JSON log of the issue.
+      render: shell
+    validations:
+      required: false
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Info ➕
+      description: Additional info you want to provide such as logs, system info, environment, etc.
+    validations:
+      required: false
