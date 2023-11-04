@@ -19,7 +19,7 @@ Dive into the Coreflux MQTT Broker documentation for a seamless start and expert
 - **Websockets**: Enable MQTT over WebSockets for real-time communication following our [Websockets Setup](https://docs.coreflux.org/getting-started/hubless/websockets).
 
 ### Prerequisites 📋
-Before you start, ensure you meet all the [Prerequisites](https://docs.coreflux.org/getting-started/prerequisites), including a basic understanding of MQTT, system requirements, and network configuration.
+Before you start, ensure you meet all the [Prerequisites](https://docs.coreflux.org/getting-started/), including a basic understanding of MQTT, system requirements, and network configuration.
 
 Bookmark the [Coreflux Documentation](https://docs.coreflux.org) for easy reference and stay ahead in managing your IoT solutions effectively.
 
