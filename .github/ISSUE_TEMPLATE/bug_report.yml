@@ -44,9 +44,6 @@ body:
       label: Environment 🌐
       description: Please select the environment where the bug occurred.
       options:
-        - Development
-        - Staging
-        - Production
         - Ubuntu 22.04 LTS (Jammy Jellyfish)
         - Ubuntu 20.04 LTS (Focal Fossa)
         - Debian 12 (Bookworm)
