@@ -7,6 +7,9 @@ body:
     attributes:
       value: |
         This repository is for reporting bugs with the Coreflux MQTT Broker, which we respond to on a best-effort basis.
+        
+        **Please attach the `statuslog` file to your report!** 📄
+        To provide us with a detailed context for the issue, attach the `statuslog` file by dragging and dropping it into the issue comment box or by using the GitHub file attachment feature. Ensure any sensitive information is redacted as this file will be publicly accessible.
   - type: textarea
     id: description
     attributes:
@@ -44,21 +47,46 @@ body:
         - Development
         - Staging
         - Production
-        - Other
+        - Ubuntu 22.04 LTS (Jammy Jellyfish)
+        - Ubuntu 20.04 LTS (Focal Fossa)
+        - Debian 12 (Bookworm)
+        - Debian 11 (Bullseye)
+        - Red Hat Enterprise Linux 9
+        - Red Hat Enterprise Linux 8
+        - Red Hat Enterprise Linux 7
+        - Windows 11
+        - Windows 10
+        - Windows Server 2022
+        - Windows Server 2019
+        - Windows Server 2016
+        - Raspbian Bullseye
+        - Raspbian Buster
+        - macOS Monterey
+        - macOS Big Sur
+        - macOS Catalina
+        - Arch Linux 2023.11.01
+        - Arch Linux 2023.10.14
+        - Arch Linux 2023.09.01
+        - Raspberry Pi OS (32-bit, Bookworm)
+        - Raspberry Pi OS (64-bit, Bookworm)
+        - Raspberry Pi OS (Legacy, 32-bit, Bullseye)
+        - Raspberry Pi OS (Legacy, 64-bit, Bullseye)
+        - Raspberry Pi Desktop (PC and Mac)
+        - Other (Please specify in 'Additional Info')
     validations:
       required: true
-  - type: file
-    id: statuslog
-    attributes:
-      label: Statuslog File 📄
-      description: Attach the `statuslog` file (in .log format) to provide a compact JSON log of the issue.
-      render: shell
-    validations:
-      required: false
   - type: textarea
     id: additional
     attributes:
       label: Additional Info ➕
-      description: Additional info you want to provide such as logs, system info, environment, etc.
+      description: Additional info you want to provide such as logs, system info, environment, etc. If you have a `statuslog` file, please attach it to this report.
     validations:
       required: false
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Terms of Service
+      description: I agree to follow this project's Code of Conduct
+      options:
+        - label: I agree
+          required: true
