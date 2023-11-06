@@ -2,7 +2,7 @@
 
 Welcome to the official support hub for the Coreflux MQTT Broker!  This repository serves as the central point for issue tracking and support requests, catering exclusively to the Coreflux MQTT Broker, a proprietary and pivotal component of the Coreflux IoT platform. 
 
-Our MQTT Broker is engineered for robustness and high performance, ensuring seamless real-time data management and communication for IoT ecosystems.  Whether you're deploying IoT solutions at scale or working on intricate IoT applications, this repository is your go-to resource for resolving any challenges you may encounter. 🛠
+Our MQTT Broker is engineered for robustness and high performance, ensuring seamless real-time data management and communication for IoT ecosystems.  Whether you're deploying IoT solutions at scale or working on intricate IoT applications, this repository is your go-to resource for resolving any challenges you may encounter. 
 
 We are committed to providing exceptional support and continuously improving our platform to meet the evolving needs of IoT professionals. Your contributions through issue reporting and feedback are invaluable to us and to the broader 🤝Coreflux community. 
 
