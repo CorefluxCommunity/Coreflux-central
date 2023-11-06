@@ -41,4 +41,4 @@ Please report any security concerns to us according to our [security policy](SEC
 For direct support, please contact our support team through the [support form on our website](#).
 
 ## Stay Connected 
-Join our [Discord channel](https://discord.gg/A3pPrptNMm) or follow us on [Reddit](#) to stay up to date with the Coreflux community and discuss with other users.
+Join our [Discord channel](https://discord.gg/A3pPrptNMm) or follow us on [Reddit](https://www.reddit.com/r/coreflux/) to stay up to date with the Coreflux community and discuss with other users.
