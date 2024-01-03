@@ -1,4 +1,4 @@
-# 🛠️ Coreflux Central (MQTT Broker) Support 
+w# 🛠️ Coreflux Central (MQTT Broker) Support 
 
 Welcome to the official support hub for the Coreflux MQTT Broker!  This repository serves as the central point for issue tracking and support requests, catering exclusively to the Coreflux MQTT Broker, a proprietary and pivotal component of the Coreflux IoT platform. 
 
@@ -13,13 +13,13 @@ Thank you for choosing Coreflux for your IoT adventures. Let's build something a
 Dive into the Coreflux MQTT Broker documentation for a seamless start and expert guidance. Our documentation is structured to provide you with all the necessary information, whether you prefer a command-driven environment or a visual interface.
 
 ### Hubless Installation & Configuration 
-- **Installation**: Set up Coreflux Central on your system with our straightforward [Installation Guide](https://docs.coreflux.org/getting-started/hubless/installation).
+- **Installation**: Set up Coreflux Central on your system with our straightforward [MQTT Broker installation](https://docs.coreflux.org/getting-started/hubless/installation).
 - **Configuration**: Tailor your MQTT Broker with our detailed [Configuration Instructions](https://docs.coreflux.org/getting-started/hubless/configuration).
 - **Certificates**: Secure your connections using TLS with our [Certificates Guide](https://docs.coreflux.org/getting-started/hubless/certificates).
 - **Websockets**: Enable MQTT over WebSockets for real-time communication following our [Websockets Setup](https://docs.coreflux.org/getting-started/hubless/websockets).
 
 ### Prerequisites 
-Before you start, ensure you meet all the [Prerequisites](https://docs.coreflux.org/getting-started/), including a basic understanding of MQTT, system requirements, and network configuration.
+Before you start, ensure you meet all the [What is MQTT]()[,](https://docs.coreflux.org/data-hub/mqtt/) including a basic understanding of MQTT, system requirements, and network configuration.
 
 Bookmark the [Coreflux Documentation](https://docs.coreflux.org) for easy reference and stay ahead in managing your IoT solutions effectively.
 
@@ -29,7 +29,7 @@ If you encounter any issues or have support requests, please use the provided is
 
 
 ## Release Notes 
-Stay informed about the latest updates and improvements by checking our [Release Notes section](https://docs.coreflux.org/release-notes/).
+Stay informed about the latest updates and improvements by checking our [Coreflux Release Notes](https://docs.coreflux.org/release-notes/).
 
 ## Contributing 
 While the Coreflux MQTT Broker is proprietary software, we value community input. If you have suggestions or feedback, please submit them as issues. 
